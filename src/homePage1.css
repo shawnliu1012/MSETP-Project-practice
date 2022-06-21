@@ -1,0 +1,20 @@
+.container {
+    background-image: url("/img/bg.jpeg");
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+/* logo 置中 */
+.bc-img img{
+    display: block;
+    margin: auto;
+}
+
+.center-block {
+    width: 960px;
+}
+
+.img1 {
+    width: 370px;
+    /* 暫時設定回收服務品質按鈕隨視窗調整大小 */
+    max-width:100%;
+}
