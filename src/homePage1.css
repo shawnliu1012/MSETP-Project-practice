@@ -42,3 +42,19 @@
 .option-button img:hover {
     box-shadow: 0px 0px 15px 10px #5bdeff;
 }
+
+.block1 img{
+    display: inline-block;
+    width: 40%;
+    margin: 10px;
+}
+
+.block2 img{
+    display: inline-block;
+    width: 40%;
+    margin: 10px;
+}
+/* 去除連結藍色底線 */
+.listbtn {
+    color: #fff;
+}
