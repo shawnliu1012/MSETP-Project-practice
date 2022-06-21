@@ -1,10 +1,11 @@
-.container {
+.container1 {
     background-image: url("../img/bg.jpeg");
     background-repeat: no-repeat;
     background-position: top center;
 }
+
 /* logo 置中 */
-.bc-img img{
+.bc-img img {
     display: block;
     margin: auto;
 }
@@ -31,10 +32,11 @@
     text-align: center;
     margin: 40px 0 10px 0;
     color: #11bbda;
-    text-shadow:  5px 0 #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+    text-shadow: 5px 0 #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
 }
+
 /* 將圖片調整至符合視窗大小 */
-.option-button img{
+.option-button img {
     width: 100%;
     border-radius: 18px;
 }
@@ -43,22 +45,36 @@
     box-shadow: 0px 0px 15px 10px #5bdeff;
 }
 
-.block1 img{
+.block1 img {
     display: inline-block;
     width: 40%;
     margin: 10px;
 }
 
-.block2 img{
+.block2 img {
     display: inline-block;
     width: 40%;
     margin: 10px;
 }
+
 /* 去除連結藍色底線 */
 .listbtn {
     color: #fff;
 }
 
-.img2 img{
+.listbtn:hover {
+    color: #fff;
+}
+
+.img2 img {
     width: 100%;
+}
+
+/* footer */
+/* 1200px以上畫面爆掉需修改＠media */
+footer {
+    background: #475268;
+    color: #fff;
+    font-weight: 300;
+    text-align: center;
 }
