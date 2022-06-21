@@ -36,4 +36,9 @@
 /* 將圖片調整至符合視窗大小 */
 .option-button img{
     width: 100%;
+    border-radius: 18px;
+}
+
+.option-button img:hover {
+    box-shadow: 0px 0px 15px 10px #5bdeff;
 }
