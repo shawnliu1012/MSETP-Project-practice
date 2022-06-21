@@ -17,4 +17,5 @@
     width: 370px;
     /* 暫時設定回收服務品質按鈕隨視窗調整大小 */
     max-width:100%;
+    border-radius:18px;
 }
