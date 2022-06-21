@@ -16,6 +16,24 @@
 .img1 {
     width: 370px;
     /* 暫時設定回收服務品質按鈕隨視窗調整大小 */
-    max-width:100%;
-    border-radius:18px;
+    max-width: 100%;
+    border-radius: 18px;
+}
+
+.img1:hover {
+    box-shadow: 0px 0px 15px 10px #5bdeff;
+}
+
+.title {
+    width: 100%;
+    font-size: 2.1rem;
+    font-weight: bolder;
+    text-align: center;
+    margin: 40px 0 10px 0;
+    color: #11bbda;
+    text-shadow:  5px 0 #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+}
+/* 將圖片調整至符合視窗大小 */
+.option-button img{
+    width: 100%;
 }
