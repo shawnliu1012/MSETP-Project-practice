@@ -8,6 +8,14 @@
 .bc-img img {
     display: block;
     margin: auto;
+    /* 設定圖片隨視窗調整大小 */
+    max-width: 100%;
+}
+
+/* RWD版面時中間面板右側有1.5rem的margin，暫時先以important去蓋掉讓版面置中 */
+.row {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
 }
 
 .center-block {
