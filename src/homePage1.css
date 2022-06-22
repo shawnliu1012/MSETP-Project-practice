@@ -1,5 +1,6 @@
 .container1 {
     background-image: url("../img/bg.jpeg");
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: top center;
 }
