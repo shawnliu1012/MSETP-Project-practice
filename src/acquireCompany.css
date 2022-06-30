@@ -1,0 +1,68 @@
+.container1 {
+    background-image: url("../img/bg.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+
+/* logo 置中 */
+.bc-img img {
+    display: block;
+    margin: auto;
+    /* 設定圖片隨視窗調整大小 */
+    max-width: 100%;
+}
+
+
+/* 汰購電動機車獎勵 */
+.title-step {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    padding-left: 650px;
+    margin-top: 30px;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: #1c8dff;
+    text-shadow: 0px 0px 10px #fff, 0px 0px 10px #fff, 0px 0px 10px #fff, 0px 0px 10px #fff, 0px 0px 10px #fff, 0px 0px 10px #fff, 0px 0px 10px #fff;
+    line-height: 2rem;
+}
+
+.text-danger {
+    font-weight: bold;
+    color: #dc3545;
+    text-decoration: none;
+}
+
+.white {
+    background-color: #fff;
+    box-shadow: 0px 0px 10px #d3d3d3, 0px 0px 10px #d3d3d3, 0px 0px 10px #d3d3d3, 0px 0px 10px #d3d3d3, 0px 0px 10px #fff, 0px 0px 10px #fff, 0px 0px 10px #fff;;
+}
+/* 標題本期 */
+.big {
+    font-size: 40px;
+}
+/* 表格內容 */
+.table {
+    font-size: 25px;
+}
+
+
+/* footer */
+footer {
+    background: #475268;
+    color: #fff;
+    font-weight: 500;
+
+}
+
+footer a {
+    text-decoration:none;
+    color: #fff;
+}
+
+footer a:hover {
+    color: #fff;
+}
+
