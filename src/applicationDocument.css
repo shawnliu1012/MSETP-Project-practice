@@ -35,25 +35,13 @@
     text-decoration: none;
 }
 
-.white {
-    background-color: #fff;
-    box-shadow: 0px 0px 10px #d3d3d3, 0px 0px 10px #d3d3d3, 0px 0px 10px #d3d3d3, 0px 0px 10px #d3d3d3, 0px 0px 10px #fff, 0px 0px 10px #fff, 0px 0px 10px #fff;;
-}
-/* 標題本期 */
-.big {
-    font-size: 40px;
-}
-/* 表格內容 */
-.table {
-    font-size: 25px;
-}
-
 /* footer上方底圖 */
 .img2 img {
     width: 100%;
 }
 
 /* footer */
+
 footer {
     background: #475268;
     color: #fff;
@@ -69,4 +57,3 @@ footer a {
 footer a:hover {
     color: #fff;
 }
-
