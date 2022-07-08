@@ -28,10 +28,19 @@
     text-shadow: 0px 0px 10px #fff, 0px 0px 10px #fff, 0px 0px 10px #fff, 0px 0px 10px #fff, 0px 0px 10px #fff, 0px 0px 10px #fff, 0px 0px 10px #fff;
     line-height: 2rem;
 }
+.text-danger:first-child{
+    font-weight: bold;
+    color: #dc3545;
+    text-decoration: none;
+}
 
 .text-danger {
     font-weight: bold;
     color: #dc3545;
+    text-decoration: underline;
+}
+
+.col-12 a {
     text-decoration: none;
 }
 
